@@ -23,10 +23,10 @@ h1SecondElement.onmouseout = function () {
   h1SecondElement.innerHTML = `The city of pizza`;
 };
 h1ThirdElement.onmouseover = function () {
-  h1ThirdElement.innerHTML = `Sua maestá il Vesuvio`;
+  h1ThirdElement.innerHTML = `Il Vesuvio`;
 };
 h1ThirdElement.onmouseout = function () {
-  h1ThirdElement.innerHTML = `His majesty the Vesuvius`;
+  h1ThirdElement.innerHTML = `The Vesuvius`;
 };
 
 function showGallery() {
