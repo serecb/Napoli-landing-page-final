@@ -99,6 +99,9 @@ p {
 }
 
 /*photo carousel*/
+#gallery-container {
+  display: none;
+}
 #carousel-inner {
   position: absolute;
   width: 100%;
