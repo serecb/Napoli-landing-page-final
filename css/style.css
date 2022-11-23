@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin-top: 0;
+  font-family: "Xanh Mono", monospace;
+}
+
+/*background images*/
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  min-width: 100%;
+  min-height: 100%;
+  border-top: 10px solid #000;
+}
+
+/*headers*/
+
+h1 {
+  position: absolute;
+  text-align: center;
+  margin-top: -800px;
+  width: 50%;
+  font-size: 68px;
+  font-weight: 900;
+  background: #979797;
+  border: 5px solid #515151;
+  border-radius: 30px;
+}
+#last-heading {
+  font-size: 60px;
+  width: 80%;
+  background: #922123;
+  color: black;
+}
+#photo-gallery-heading {
+  text-align: center;
+  font-size: 50px;
+  background: #44e2f0;
+  padding: 30px 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+h5 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  background: #df8f12;
+}
+/*paragraphs*/
+
+p {
+  position: absolute;
+  margin-top: 200px;
+  width: 50%;
+  background: #979797;
+  text-align: center;
+  border: 5px solid #515151;
+  border-radius: 30px;
+  padding: 10px 10px;
+}
+#history-of-pizza-paragraph {
+  width: 25%;
+  margin-top: 250px;
+  margin-right: 950px;
+  text-align: left;
+}
+#vesuvius-paragraph {
+  margin-left: 600px;
+  margin-top: 550px;
+}
+#history-of-maradona1-paragraph {
+  text-align: left;
+  margin-right: 950px;
+  width: 28%;
+}
+#history-of-maradona2-paragraph {
+  text-align: left;
+  margin-left: 940px;
+  width: 28%;
+}
+
+/*gallery button*/
+
+#gallery-button {
+  border-radius: 30px;
+  background: #103b42;
+  padding: 10px 10px;
+  margin-top: 5px;
+}
+#gallery-button:hover {
+  background: #df8f12;
+  box-shadow: 5px 5px #515151;
+}
+
+/*photo carousel*/
+#carousel-inner {
+  position: absolute;
+  width: 100%;
+}
+#carouselExampleDark img {
+  position: relative;
+  border-radius: 20px;
+  background: #5c5c5c;
+  border: 5px solid #545454;
+}
+
+/*media queries*/
+
+@media (max-width: 576px) {
+  h1,
+  #last-heading,
+  #photo-gallery-heading {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: -170px;
+  }
+  #photo-gallery-heading {
+    margin-top: 50px;
+  }
+  p,
+  #history-of-pizza-paragraph,
+  #vesuvius-paragraph {
+    position: absolute;
+    margin-top: 150px;
+    font-size: 5px;
+    width: 90%;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    background: linear-gradient(#0001, #000);
+    color: yellow;
+    font-family: "Times New Roman", Times, serif;
+  }
+  #vesuvius-paragraph {
+    margin-left: 8px;
+  }
+  #history-of-pizza-paragraph {
+    margin-left: 950px;
+    width: 95%;
+  }
+  #history-of-maradona1-paragraph {
+    display: none;
+  }
+  #history-of-maradona2-paragraph {
+    margin-left: -5px;
+    width: 90%;
+    text-align: center;
+  }
+}
